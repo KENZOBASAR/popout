@@ -1,0 +1,18 @@
+{
+    "tags": {
+        "pattern": "<\\/?[\\w\\s=\"'-]+?>",
+        "color": "cyan"
+    },
+    "attributes": {
+        "pattern": "\\b\\w+(?=\\=)",
+        "color": "yellow"
+    },
+    "values": {
+        "pattern": "(?<=\\=)[\"'].*?[\"']",
+        "color": "green"
+    },
+    "content": {
+        "pattern": "[^<>]+",
+        "color": "white"
+    }
+}
